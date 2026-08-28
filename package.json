@@ -1,0 +1,24 @@
+{
+  "name": "task-management-app",
+  "version": "1.0.0",
+  "description": "TaskFlow - Full-Stack Task Management Web Application with Role-Based User and Admin Portals",
+  "scripts": {
+    "server": "npm run dev --prefix server",
+    "client": "npm run dev --prefix client",
+    "seed": "npm run seed --prefix server",
+    "build": "npm run build --prefix client",
+    "install:all": "npm install --prefix server && npm install --prefix client"
+  },
+  "keywords": [
+    "task-management",
+    "react",
+    "vite",
+    "express",
+    "mongodb",
+    "mongoose",
+    "jwt",
+    "tailwind"
+  ],
+  "author": "TaskFlow Team",
+  "license": "ISC"
+}
